@@ -15,7 +15,7 @@ sap.ui.jsview("workingwithodata.header", {
 	createContent : function(oController) {
 		var oAppHeader = new sap.ui.commons.ApplicationHeader("appHeader"); 
 
-		//configure the branding area
+		//configure the branding area - header
 		oAppHeader.setLogoSrc("http://www.sap.com/global/images/SAPLogo.gif");
 		oAppHeader.setLogoText("Demo-project OData service calls");
 		
